@@ -27,7 +27,9 @@ Rest API is a Spring Boot Project designed to help you get to grips with the Spr
 * Test a first api call
 
 ```bash
-    curl curl http://localhost:8080/greeting?name=Use
+    curl http://localhost:8080/greeting?name=Use
+    
+    {"id":1,"content":"Hello, User!"}
 ```
 
 ## Licence
